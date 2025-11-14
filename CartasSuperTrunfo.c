@@ -3,10 +3,10 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // nivel aventureiro
-
+// nivel mestre
 
 int main() {
-                   // Área  das variáveis 
+                   // variáveis 
      char estado;           // 'A' a 'B'
     char codigo[10];       // "A01", "B03", etc. (10 é um tamanho seguro)
     char nomeCidade[100];  // Nome com espaços (ex: "São Paulo")
@@ -14,10 +14,14 @@ int main() {
     float area;
     float pib;
     int pontosTuristicos;
-    double densidade_populacional;// populaçao dividida pela area
-    double pib_per_capita; // calculo do PIB percapita 
-
-                  // Área para entrada de dados
+    double densidade_populacional;// populaçao dividida pela area  // nivel aventureiro
+    double pib_per_capita; // calculo do PIB percapita             // nivel  aventureiro
+    double super_poder;                                            // nivel mestre
+    double densidade _populaçao;                                    // nivel mestre
+    double pib_per_capita;                                          / /nivel mestre     
+    
+  
+                             // Área para entrada de dados
     printf("--- Inserir dados da Carta 1 ---\n");
 
     printf("Digite o Estado (A-B): ");
@@ -47,7 +51,7 @@ int main() {
     printf("\n--- Carta 1 cadastrada com sucesso! ---\n\n");
 
 
-printf("--- Inserir dados da Carta 2 ---\n");
+    printf("--- Inserir dados da Carta 2 ---\n");
 
     printf("Digite o Estado (A-B): ");
          scanf(" %c", &carta2.estado); // O espaço limpa o 'Enter'  
