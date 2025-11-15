@@ -18,7 +18,7 @@ int main() {
     double pib_per_capita; // calculo do PIB percapita             // nivel  aventureiro
     double super_poder;                                            // nivel mestre
     double densidade _populaçao;                                    // nivel mestre
-    double pib_per_capita;                                          / /nivel mestre     
+    double pib_per_capita;                                          //nivel mestre     
     
   
                              // Área para entrada de dados
@@ -86,7 +86,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", carta1.pib);
     printf("Número de Pontos Turísticos: %d\n", carta1.pontosTuristicos);
     printf("Densidade populacional: %.2f hab/km\n");
-    printf("PIB per capita:%.2f reai\n")
+    printf("PIB per capita:%.2f reai\n") // nivel mestre 
      
     printf("\n"); // Adiciona uma linha em branco entre as cartas
 
